@@ -22,6 +22,9 @@ public class AlternateFragment implements Function<List<Integer>, List<Integer>>
                     int freeIndex = findIndexWithFreeSpace(blocks, fileSize, right + 1);
                     if (freeIndex != -1) {
                         swapAtIndices(right + 1, freeIndex, fileSize, blocks);
+                        currentFileId = -1;
+                        fileSize = 0;
+                        continue;
                     }
                 }
                 currentFileId = currentBlock;

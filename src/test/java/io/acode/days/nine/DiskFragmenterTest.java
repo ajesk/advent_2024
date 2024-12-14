@@ -41,7 +41,9 @@ public class DiskFragmenterTest {
             "233313312141413140202333133121414131402, 23423",
             "233313312141413140211, 2910",
             "1313165, 169",
-            "1909091, 3"
+            "1909091, 3",
+            "1124212, 58",
+            "04202, 7"
 
     })
     void validatePart2TestData2(String test, long expected) {
