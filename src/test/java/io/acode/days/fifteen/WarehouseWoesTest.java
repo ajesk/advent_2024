@@ -10,7 +10,7 @@ public class WarehouseWoesTest {
     @ParameterizedTest
     @CsvSource({
             "test.txt, 2028",
-            "test2.txt, 10092",
+            "test2.txt.txt, 10092",
             "real.txt, 0"
     })
     void testPart1(String file, long expected) {
@@ -21,7 +21,7 @@ public class WarehouseWoesTest {
 
     @ParameterizedTest
     @CsvSource({
-            "test2.txt, 9021",
+            "test2.txt.txt, 9021",
             "real.txt, 0"
     })
     void testPart2(String file, long expected) {

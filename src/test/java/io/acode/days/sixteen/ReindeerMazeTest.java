@@ -9,7 +9,7 @@ public class ReindeerMazeTest {
     @ParameterizedTest
     @CsvSource({
             "test.txt, 7036",
-            "test2.txt, 11048",
+            "test2.txt.txt, 11048",
             "real.txt, 0"
     })
     void testPart1(String file, int expected) {
@@ -21,7 +21,7 @@ public class ReindeerMazeTest {
     @ParameterizedTest
     @CsvSource({
             "test.txt, 42",
-            "test2.txt, 64",
+            "test2.txt.txt, 64",
             "real.txt, 0"
     })
     void testPart2(String file, int expected) {

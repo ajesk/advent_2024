@@ -29,7 +29,7 @@ public class MullItOverTest {
     @ParameterizedTest
     @CsvSource({
             "test.txt, 161",
-            "test2.txt, 48"
+            "test2.txt.txt, 48"
     })
     void validatePart2TestData2(String file, int expected) {
         MullItOver target = new MullItOver("three/" + file);
